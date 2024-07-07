@@ -1,0 +1,28 @@
+.completed {
+  text-decoration: line-through;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0px;
+  padding: 5px;
+  border: 1px solid #646cff;
+  border-radius: 5px;
+}
+
+@media (max-width: 425px) {
+  .product {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=TaskList.module.css.map */
